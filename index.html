@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio page</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="css/style.css" > 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+        <nav id="navbar">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#about" id="link"> About</a></li>
+                <li><a href="#skills" id="link">Skills</a> </li>
+                <li><a href="#projects" id="link"> Projects</a></li>
+                <li><a href="#contact" id="link">Contact</a> </li>
+            </ul>
+        </nav>
+        <ul class="mainMenuMobile">
+            <li><a class="mobileLink" href="#about" id="link"> About</a></li>
+            <li><a class="mobileLink" href="#skills" id="link">Skills</a> </li>
+            <li><a class="mobileLink" href="#projects" id="link"> Projects</a></li>
+            <li><a class="mobileLink" href="#contact" id="link">Contact</a> </li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+    <!-- welcome -->
+        <section id="welcome">
+            <div id="text">
+                <h1>Hello my name is Konstantinos</h1>
+                <h2>I am a Software Developer</h2>
+                <div id="icons"> 
+                    <a href="https://www.linkedin.com/in/konstantinos-tabakis/" target="_blank"> <img src="https://image.flaticon.com/icons/png/512/2111/2111532.png" alt=""></a>
+                    <a href="https://github.com/konstantinosTabakis" target="_blank"> <img src="https://image.flaticon.com/icons/png/512/2111/2111425.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+    <!-- about -->
+        <section id="about">
+            <h1 class="title">About</h1>
+            <div class="wrapper">
+                <div ><img class="img"src="https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg" alt=""></div>
+                <div id="about-right">
+                    <div id="text">I am a mathematician and MSc student of computer science born in 1993. Experienced in tutoring and special appealed to new technologies and programming.</div>
+                    <a href="./files/CV-Tabakis.pdf" target="_blank" class="btn">Get Cv</a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Skills -->
+        <section id="skills">
+            <h1 class="title">Skills </h1>
+            <div class="wrapper">
+                <div class="skills-grid">
+                    <!-- <h2>Programming Skills</h2> -->
+                    <div class="item">Html</div>
+                    <div class="item">Css</div>
+                    <div class="item">JavaScript</div>
+                    <div class="item">Java</div>
+                    <div class="item">Python</div>
+                    <div class="item">SQL</div>
+
+                </div>
+                <div><img class="img" src="https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_960_720.jpg" alt=""></div>
+            </div>
+
+        </section>
+
+    <!-- projects -->  
+          <section id="projects">
+            <h1 class="title">Projects</h1>
+            <div class="container">
+                <div class="project">
+                    <img src="./files/Converter.png" alt="">
+                    <h3>Binary Converter</h3>
+                    <a href="https://konstantinostabakis.github.io/Converter/" target="_blank"> See the project</a>
+
+                </div>
+                <div class="project">
+                    <img src="./files/Lyrics.png" alt="">
+                    <h3>React Lyrics-App</h3>
+                    <a href="https://awesome-brattain-364591.netlify.app/" target="_blank"> See the project</a>
+
+                </div>
+                <div class="project">
+                    <img src="./files/Coding Bootcamp Page.png" alt="">
+                    <h3>Homepage Template</h3>
+                    <a href="https://konstantinostabakis.github.io/Web-Servises-Bootcamp/" target="_blank"> See the project</a>
+
+                </div>
+                <div class="project">
+                    <img src="./files/quiz.png" alt="">
+                    <h3>Multiple-Choice-Quiz</h3>
+                    <a href="https://konstantinostabakis.github.io/Multiple-Choice-Quiz/" target="_blank">See the project</a>
+
+                </div>
+                 
+            </div>
+        </section> 
+
+    <!-- Contact me  -->
+        <section id="contact">
+            <h1 class="title">Contact me</h1>
+            <div class="wrapper">
+                <form action="https://formsubmit.co/konstantinos_tabakis@yahoo.com" method="POST">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <div >
+                        <img class="small_img" src="https://image.flaticon.com/icons/png/512/860/860784.png" alt="" srcset="">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <img class="small_img" src="https://image.flaticon.com/icons/png/512/561/561127.png" alt="" srcset="">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                    
+               </form>
+            </div>
+        </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
