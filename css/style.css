@@ -223,8 +223,8 @@ h1{
     align-items: center;
     min-height: 60vh;
     -webkit-box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.51); 
-box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.51);
-
+    box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.51);
+    border-radius: 10px;
 }
 #contact form div{
    display: flex;
@@ -238,7 +238,7 @@ box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.51);
     padding: 10px ;
     border-radius: 10px;
     outline: none;
-    width: 70%;
+    width: 75%;
     border: 1px solid rgb(134, 134, 134);
 }
 .small_img{
@@ -246,7 +246,7 @@ box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.51);
     margin: 0 10px;
 }
 #contact textarea{
-    width: 90%;
+    width: 85%;
     padding: 10px;
     border-radius: 10px;
     outline: none;
