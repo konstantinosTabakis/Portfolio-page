@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 #navbar ul{
     display: flex;
@@ -208,10 +209,18 @@ h1{
 .project h3{
     font-size: 1.3rem;
 }
+.project .img-box{
+    overflow: hidden;
+}
 .project img{
     width: 300px;
     height: 200px;
+    transition: transform 2s ;
     /* border-radius: 100%; */
+}
+.project img:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
 }
 
 /* contact */
